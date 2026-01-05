@@ -17,6 +17,10 @@ set incsearch
 " Don't use Ex mode, use Q for formatting.
 map Q gq
 
+" ─── Clipboard ────────────────────────────
+" Make yank/delete/paste use system clipboard
+set clipboard=unnamedplus
+
 " --- Enable IdeaVim plugins https://jb.gg/ideavim-plugins
 
 " Highlight copied text
